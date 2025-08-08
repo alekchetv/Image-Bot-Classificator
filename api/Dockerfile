@@ -7,5 +7,5 @@ ADD model_scripted_resnet50_6_classes.pt /api/
 ADD requirements.txt /api/
 
 WORKDIR /api/
-RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+RUN pip install torch torchvision
 RUN pip install -r requirements.txt
