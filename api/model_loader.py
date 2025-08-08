@@ -5,7 +5,7 @@ import numpy as np
 
 
 def load_model(model_path: str):
-    model = torch.jit.load(model_path).to(torch.device("cpu"))
+    model = torch.jit.load(model_path, map_location=torch.device('cpu'))
     model.eval()
     return model
 
