@@ -1,0 +1,14 @@
+version: "1"
+services:
+  api:
+    build: api/
+    command: python ./api.py
+    ports:
+      - 8000:8000
+
+  bot:
+    build: bot/
+    command: python ./bot.py
+    network_mode: host
+    depends_on:
+      - api

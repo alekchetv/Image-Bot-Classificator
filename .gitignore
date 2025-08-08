@@ -1,0 +1,8 @@
+dataset_custom_cars
+dataset_split
+images
+stance
+__pycache__
+model_scripted_resnet50_6_classes.pt
+model_scripted_resnet50.pt
+model_scripted.pt
