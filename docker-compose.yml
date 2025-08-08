@@ -8,6 +8,5 @@ services:
   bot:
     build: bot/
     command: python bot.py
-    network_mode: host
     depends_on:
       - api
