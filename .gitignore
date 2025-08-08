@@ -5,3 +5,4 @@ stance
 __pycache__
 model_scripted_resnet50.pt
 model_scripted.pt
+bot/.env

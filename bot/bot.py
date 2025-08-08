@@ -12,7 +12,7 @@ import numpy as np
 import requests
 
 
-TOKEN = "7744437376:AAH6-SVyzpL6KOkVfju6OmlJeE9gKjmVszY"
+
 router = Router()
 
 
