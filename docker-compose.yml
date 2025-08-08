@@ -1,7 +1,7 @@
 services:
   api:
     build: api/
-    command: python api.py
+    command: python main.py
     ports:
       - 8000:8000
 
