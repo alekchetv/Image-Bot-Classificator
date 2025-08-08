@@ -10,7 +10,7 @@ from messages import START_MESSAGE, HELP_MESSAGE
 import asyncio
 import numpy as np
 import requests
-
+from config import TOKEN
 
 
 router = Router()
