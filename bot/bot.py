@@ -36,7 +36,7 @@ async def predict_photo(message: Message, bot: Bot):
     await bot.download_file(file.file_path, destination=file_path)
     with open(file_path, 'rb') as f:
         files = {'file': f}
-        respone = requests.post("http://localhost:8000/predict", files=files)
+        respone = requests.post("http://127.0.0.1:8000/predict", files=files)
     predict = respone.json()["prediction"]
 
     await message.answer(f"🧠 Я думаю, это стиль: {predict}")
