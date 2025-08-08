@@ -4,6 +4,7 @@ ADD bot.py /bot/
 ADD messages.py /bot/
 ADD requirements.txt /bot/
 ADD config.py /bot/
+ADD .env /bot/
 
 WORKDIR /bot/
 
