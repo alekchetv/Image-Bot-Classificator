@@ -1,6 +1,6 @@
 # Car Style Classifier Bot
 Telegram-бот(<a href="https://t.me/TuningCarClassifierBot">Ссылка</a>), который определяет стиль кастомного автомобиля по фото. Бот принимает изображение автомобиля и возвращает предполагаемый стиль его модификации. В основе лежит модель, обученная на кастомном датасете с изображениями различных автокультур (JDM, Muscle, Offroad и др.).
-<a href="https://github.com/alekchetv/Image-Bot-Classificator/blob/main/notebook.ipynb">Ссылка на ноутбук с пайплайном обучения моделей</a>
+> <a href="https://github.com/alekchetv/Image-Bot-Classificator/blob/main/notebook.ipynb">Ссылка на ноутбук с пайплайном обучения моделей</a>
 # Этапы работы над проектом
 - Сбор данных (Google Images + Bing API)
 - Очистка и разметка изображений
